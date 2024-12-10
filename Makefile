@@ -8,7 +8,7 @@ BIN_DIR = bin
 
 # Source files
 assg_src = set.cpp QueueException.cpp
-test_src = assg13-tests.cpp $(assg_src)
+test_src = assg13-tests.cpp catch2-main.cpp $(assg_src)
 
 # Object files
 test_obj = $(patsubst %.cpp,$(OBJ_DIR)/%.o,$(test_src))
